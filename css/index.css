@@ -1,0 +1,30 @@
+.navbar-text {
+    text-align: center;
+}
+
+.mainCards {
+    padding: 25px;
+    margin: 25px;
+}
+
+.secondCards {
+    padding: 25px;
+    margin: 25px;
+}
+
+.slider {
+    padding: 50px;
+    width: 100%;
+}
+
+.footItem {
+    display: inline-block;
+    
+}
+
+.jumbotron {
+    background-image: url("../Images/header-mtn.jpg");
+    background-size: cover;
+    background-repeat: none;
+    height: 600px;
+}
