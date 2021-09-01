@@ -1,6 +1,48 @@
-.navbar-text {
-    text-align: center;
+
+
+body {
+    background-image: url('../Images/CMC-topo-map-bg-01.png');
+    background-position: top;
+    background-repeat: no-repeat;
 }
+
+.nav, a {
+    color: #01163F;
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+.nav, a:hover {
+    color: #707070;
+}
+
+header {
+    height: 300px;
+}
+
+
+
+.container-grid {
+    display: grid;
+    height: 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "iconBar iconBar iconBar"
+    "logo logo logo";
+}
+
+.iconBar {
+    text-align: right;
+    padding: 10px;
+    grid-area: iconBar;
+}
+
+.logo {
+    text-align: center; 
+    grid-area: logo;
+
+}
+
 
 .mainCards {
     padding: 25px;
@@ -17,14 +59,172 @@
     width: 100%;
 }
 
-.footItem {
-    display: inline-block;
-    
-}
+
 
 .jumbotron {
-    background-image: url("../Images/header-mtn.jpg");
+    background-image: url("../Images/header-img@2x.png");
     background-size: cover;
     background-repeat: none;
     height: 600px;
 }
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat';
+}
+
+
+p {
+    font-family: 'helvetica';
+    size: 18px;
+}
+
+.btn-primary {
+    background-color: #01163F;
+    border-color: #01163F;
+    font-family: 'helvetica';
+}
+
+.btn-primary:hover {
+    background-color: #699EBF;
+    border-color: #699EBF;
+    font-family: 'helvetica';
+}
+
+.greenBtns {
+    background-color: #595410;
+    border-color: #595410;
+    border-radius: 5px;
+    font-family: 'helvetica';
+    font-size: 28px;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    border-style: none;
+    
+}
+
+.greenBtns:hover {
+    background-color: #699EBF;
+    border-color: #699EBF;
+    font-size: 32px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 15px;
+    padding: 15px;
+}
+
+.blueBtn {
+    background-color: #01163F;
+    border-color: #01163F;
+    font-family: 'helvetica';
+    border-radius: 5px;
+    font-family: 'helvetica';
+    font-size: 18px;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    border-style: none;
+}
+
+.blueBtn:hover {
+    background-color: #699EBF;
+    border-color: #699EBF;
+}
+
+.display-4 {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lead {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+}
+
+.headerBtns {
+    text-align: center;
+}
+
+.calendar {
+    margin: 25px;
+    margin-bottom: 100px;
+    background-color: none;
+}
+
+.list-group {
+    color: #01163F;
+}
+
+.list-group-item-action {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.mb-1 {
+    color: #01163F;
+}
+
+p.mb-1 {
+    font-family: 'helvetica';
+}
+
+.sliderHeader {
+    font-size: 60px;
+    font-family: 'Montserrat';
+
+}
+
+.sliderText {
+    font-size: 36px;
+    font-family: 'helvetica';
+}
+
+.infoCard {
+    margin-bottom: 25px;
+}
+
+.mainCards {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.card-header {
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+.card-title {
+    font-family: 'Montserrat';
+    font-size: 21px;
+}
+
+.footerBox {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   background-color: #595410;
+   padding: 25px;
+   
+}
+
+.footItem, ul {
+   list-style-type: none;
+   color: white;
+
+}
+
+.footItem, li {
+    font-size: 14px;
+}
+
+.inline-block {
+    display: inline-block;
+   
+    
+}
+
+.socialLinks {
+    text-align: center;
+}
+
