@@ -70,12 +70,14 @@ header {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Montserrat';
+    color: #01163F;
 }
 
 
 p {
     font-family: 'helvetica';
     size: 18px;
+    color: #01163F;
 }
 
 .btn-primary {
@@ -228,3 +230,82 @@ p.mb-1 {
     text-align: center;
 }
 
+.calToggle {
+	display:none;
+}
+
+
+/* join page */
+
+.memberQuotes {
+    color: #595410;
+    font-size: 24px;
+    font-weight: light;
+
+}
+
+.card-body, .quoteCards {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.copy {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+
+
+.joinCards {
+    padding: 25px;
+    margin: 25px;
+    
+}
+
+.joinCardsTitle {
+    color: white;
+    size: 36px;
+}
+
+.joinCardsText {
+    color: white;
+}
+
+.joinCardBody {
+    margin-bottom: 25px;
+    border-style: none;
+}
+
+.groups {
+    margin: 50px;
+    margin-bottom: 100px;
+    background-color: none;
+    
+}
+
+.btn-link {
+    color: #01163F;
+    font-size: 18px;
+
+}
+
+.btn-link:hover {
+    color: white;
+}
+
+.list-group-item-action.active {
+    background-color: #595410;
+    border-color: #595410;
+}
+
+.groupsList {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.groupsList:hover {
+    background-color: #595410;
+    border-color: #595410;
+    color: white;
+}
